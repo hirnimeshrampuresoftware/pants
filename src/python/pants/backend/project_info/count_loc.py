@@ -23,7 +23,7 @@ class SuccinctCodeCounter(TemplatedExternalTool):
     options_scope = "scc"
     help = "The Succinct Code Counter, aka `scc` (https://github.com/boyter/scc)."
 
-    default_version = "2.12.0"
+    default_version = "3.0.0"
     default_known_versions = [
         "2.12.0|macos_arm64 |70b7002cd1e4541cb37b7b9cbc0eeedd13ceacb49628e82ab46332bb2e65a5a6|1842530",
         "2.12.0|macos_x86_64|70b7002cd1e4541cb37b7b9cbc0eeedd13ceacb49628e82ab46332bb2e65a5a6|1842530",
