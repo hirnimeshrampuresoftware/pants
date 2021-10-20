@@ -395,7 +395,7 @@ jobs:
             rustup --version && \
             export MODE=debug && \
             if \[ ${{ matrix.pyver }} == cp37-cp37m \] ; then
-              ./build-support/bin/release.sh build-wheels --no-pantsd
+              ./build-support/bin/release.sh --no-pantsd build-wheels;
             elif \[ ${{ matrix.pyver }} == cp38-cp38 \] ; then
               export USE_PY38=true;
               ./build-support/bin/release.sh build-wheels --no-pantsd;
