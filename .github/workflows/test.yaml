@@ -291,7 +291,7 @@ jobs:
     env:
       PANTS_REMOTE_CACHE_READ: 'false'
       PANTS_REMOTE_CACHE_WRITE: 'false'
-    if: ${{ github.repository_owner == 'pantsbuild' }}
+  #  if: ${{ github.repository_owner == 'pantsbuild' }}
     name: Build AArch64 wheels and fs_util (Linux)
     runs-on: ubuntu-20.04
     steps:
